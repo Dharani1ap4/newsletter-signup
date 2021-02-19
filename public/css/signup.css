@@ -1,0 +1,83 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.text-center {
+    background-color: rgba(255, 137, 1, 0.781);
+}
+
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+}
+
+.form-signin .checkbox {
+    font-weight: 400;
+}
+
+.form-signin .form-control {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+
+.topinput {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.middleinput {
+    margin-bottom: -1px;
+    border-radius: 0;
+}
+
+.bottominput {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.signintext {
+    font-size: 3rem;
+    font-family: 'Reggae One', cursive;
+}
+
+.display-4 {
+    font-family: 'Reggae One', cursive;
+}
+
+.wow {
+    background-color: #FC642D;
+    margin-bottom: 15rem;
+    margin-left: 10rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-top: 15rem;
+    color: white;
+}
+
+.sfbody {
+    background-color: #767676;
+}
+
+.btnwarning {
+    background-color: cyan;
+    margin-top: 2rem;
+}
